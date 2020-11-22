@@ -7,8 +7,27 @@
 script = ExtResource( 2 )
 
 [node name="player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 152, 54 )
+position = Vector2( 881.97, 282.844 )
 
 [node name="enemy_spanw_timer" type="Timer" parent="."]
 autostart = true
+
+[node name="hitpoints" type="ColorRect" parent="."]
+margin_left = -1.0
+margin_top = 583.0
+margin_right = 1024.0
+margin_bottom = 601.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="score" type="Label" parent="."]
+margin_left = 935.572
+margin_top = 29.184
+margin_right = 987.572
+margin_bottom = 43.184
+text = "Score: 0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
 [connection signal="timeout" from="enemy_spanw_timer" to="." method="_on_enemy_spanw_timer_timeout"]
