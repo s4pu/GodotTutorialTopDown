@@ -1,13 +1,14 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://player/player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://game/game.gd" type="Script" id=2]
+[ext_resource path="res://assets/background.jpg" type="Texture" id=3]
 
 [node name="game" type="Node2D"]
 script = ExtResource( 2 )
 
 [node name="player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 881.97, 282.844 )
+position = Vector2( 879.851, 282.844 )
 
 [node name="enemy_spanw_timer" type="Timer" parent="."]
 autostart = true
@@ -17,6 +18,7 @@ margin_left = -1.0
 margin_top = 583.0
 margin_right = 1024.0
 margin_bottom = 601.0
+color = Color( 0.0941176, 0.486275, 0.156863, 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -30,4 +32,10 @@ text = "Score: 0"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="background" type="Sprite" parent="."]
+show_behind_parent = true
+position = Vector2( 511.359, 301.287 )
+scale = Vector2( 1.2002, 1.245 )
+texture = ExtResource( 3 )
 [connection signal="timeout" from="enemy_spanw_timer" to="." method="_on_enemy_spanw_timer_timeout"]
