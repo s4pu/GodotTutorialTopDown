@@ -1,4 +1,4 @@
-assets\"background.jpg" : https://www.pinterest.de/pin/416090453066257969/
-assets\"santa.png" : https://pzuh.itch.io/santa-claus-free-sprites
-assets\"christmas_elf.png" : https://www.cleanpng.com/png-santa-claus-christmas-elf-clip-art-elf-958982/download-png.html
-assets\"present.png" : https://www.vecteezy.com/vector-art/99485-christmas-presents-vector
+game/background.jpg : https://www.pinterest.de/pin/416090453066257969/
+player/santa.png : https://pzuh.itch.io/santa-claus-free-sprites
+enemy/christmas_elf.png : https://www.cleanpng.com/png-santa-claus-christmas-elf-clip-art-elf-958982/download-png.html
+projectile/present.png : https://www.vecteezy.com/vector-art/99485-christmas-presents-vector

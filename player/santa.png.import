@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/christmas_elf.png-61eae5d709f4e4a50ea7a1e04d3dbfaf.stex"
+path="res://.import/santa.png-433cb086cf19d57fb45f72cf0f89ea95.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/christmas_elf.png"
-dest_files=[ "res://.import/christmas_elf.png-61eae5d709f4e4a50ea7a1e04d3dbfaf.stex" ]
+source_file="res://player/santa.png"
+dest_files=[ "res://.import/santa.png-433cb086cf19d57fb45f72cf0f89ea95.stex" ]
 
 [params]
 
