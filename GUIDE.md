@@ -1,5 +1,5 @@
 * create a new empty project in godot
-* extract the assets.zip file into the new project folder
+* extract the [start.zip](https://github.com/s4pu/GodotTutorialTopDown/archive/start.zip) file into the new project folder
 * let's make a scene with our player
     - create a game.tscn
     - drag-and-drop the background.jpg onto the game scene, make it start in the top right corner and span the whole screen
