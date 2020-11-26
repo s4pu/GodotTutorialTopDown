@@ -11,10 +11,10 @@
     - create a player.gd
     - type in the [\_process](https://github.com/s4pu/GodotTutorialTopDown/blob/main/player/player.gd#L12) function together
 * nice! let's get some enemies
-    - create an enemy.tscn, root is area2d, add texture, collisionshape
+    - create an enemy.tscn, root is area2d, add texture, collisionshape, scale it down to (0.2, 0,2)
 * let's spawn enemies every second
     - to the game.tscn, add a timer, set it to autostart
-    - go to the timer's signals and connect the timeout signal to a new [\_on\_enemy\_spawn\_timer\_timeout](https://github.com/s4pu/GodotTutorialTopDown/blob/main/game/game.gd#L8) (skip the "hit" and "target" parts for now)
+    - go to the timer's signals and connect the timeout signal to a new [function](https://github.com/s4pu/GodotTutorialTopDown/blob/main/game/game.gd#L8) (skip the "hit" and "target" parts for now)
     - launch the game, hey they're appearing everywhere!
 * let's make the enemies run towards us
     - add a script to enemy.tscn, copy the [\_process](https://github.com/s4pu/GodotTutorialTopDown/blob/main/enemy/enemy.gd#L1), declare the "target" inst var at the top
@@ -25,7 +25,7 @@
     - in player.gd, add hitpoints var and the `take_damage` [func](https://github.com/s4pu/GodotTutorialTopDown/blob/main/player/player.gd#L34) (skip the emit\_signal), maybe add a `print(hitpoints)` for now
     - launch the game, we die D:
 * let's shoot the enemies with presents
-    - add a projectile.tscn, again area2d as root, add sprite, add collisionshape
+    - add a projectile.tscn, again area2d as root, add sprite, add collisionshape, scale it down to (0.2, 0.2)
     - in our player.tscn, add the [\_input](https://github.com/s4pu/GodotTutorialTopDown/blob/main/player/player.gd#L24) method
     - add a script to our projectile, add the [code](https://github.com/s4pu/GodotTutorialTopDown/blob/main/projectile/projectile.gd)
     - add the `hit` [method](https://github.com/s4pu/GodotTutorialTopDown/blob/main/enemy/enemy.gd#L18) to enemy.gd (skip the emit\_signal)
