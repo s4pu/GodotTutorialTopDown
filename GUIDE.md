@@ -11,7 +11,7 @@
     - create a player.gd
     - type in the [\_process](https://github.com/s4pu/GodotTutorialTopDown/blob/main/player/player.gd#L12) function together
 * nice! let's get some enemies
-    - create an enemy.tscn, root is area2d, add texture, collisionshape, scale it down to (0.2, 0,2)
+    - create an enemy.tscn, root is area2d, add texture, collisionshape, scale it down to (0.2, 0.2)
 * let's spawn enemies every second
     - to the game.tscn, add a timer, set it to autostart
     - go to the timer's signals and connect the timeout signal to a new [function](https://github.com/s4pu/GodotTutorialTopDown/blob/main/game/game.gd#L8) (skip the "hit" and "target" parts for now)
