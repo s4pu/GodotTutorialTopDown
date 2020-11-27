@@ -14,6 +14,7 @@
     - create an enemy.tscn, root is area2d, add texture, collisionshape, scale it down to (0.2, 0.2)
 * let's spawn enemies every second
     - to the game.tscn, add a timer, set it to autostart
+    - create a game.gd and add it to game
     - go to the timer's signals and connect the timeout signal to a new [function](https://github.com/s4pu/GodotTutorialTopDown/blob/main/game/game.gd#L8) (skip the "hit" and "target" parts for now)
     - launch the game, hey they're appearing everywhere!
 * let's make the enemies run towards us
