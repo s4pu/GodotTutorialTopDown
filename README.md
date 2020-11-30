@@ -1,6 +1,7 @@
 # GodotTutorialTopDown
 Tutorial for Godot in preparation of the next gamejam @ HPI.
 
+![Screenshot of the game](https://github.com/s4pu/GodotTutorialTopDown/blob/main/screenshot.png?raw=true)
 
 # Things that didn't fit in the Workshop slot
 * The enemies always spawn in the same spots. Call randomize() to get a new seed on each new run.
